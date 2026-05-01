@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="background-color: #E8F5E9;">
+  <header>
+    <h1 align="center"><u><strong><em>Student Registration Form</em></strong></u></h1>
+  </header>
+  <main>
+    <form action="Login/index.html" align="center" style="background-color: #E8F5E9;">
+      <fieldset style="border: 5px solid black; width: 50%; margin: auto; padding: 20px; background-color: #F1F8E9;">
+        <legend><strong><em>Personal Information</em></strong></legend>
+      
+      <table border="1" cellpadding="20" cellspacing="5" align="center">
+        <tr>
+          <td><label for="Name"><strong><em>Full Name:</em></strong></label></td>
+          <td>
+            <input type="text" id="Name" name="Name" placeholder="Enter Your Full Name" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Email"><strong><em>Email:</em></strong></label></td>
+          <td>
+            <input type="email" id="Email" name="Email" placeholder="Enter Your Email" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Password"><strong><em>Password:</em></strong></label></td>
+          <td>
+            <input type="password" id="Password" name="Password" placeholder="Enter Your Password" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Age"><strong><em>Age:</em></strong></label></td>
+          <td>
+            <input type="number" id="Age" name="Age" placeholder="Enter Your Age" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Gender"><strong><em>Gender:</em></strong></label></td>
+          <td>
+            <input type="radio" id="Male" name="Gender" value="Male" required />
+            <label for="Male"><strong><em>Male</em></strong></label>
+            <input type="radio" id="Female" name="Gender" value="Female" required />
+            <label for="Female"><strong><em>Female</em></strong></label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Skills"><strong><em>Skills:</em></strong></label></td>
+          <td>
+            <input type="checkbox" id="Web" name="Skills" value="Modern Web Development" />
+            <label for="Web"><strong><em>Web Dev</em></strong></label>
+            <input type="checkbox" id="AI" name="Skills" value="Artificial Intelligence" />
+            <label for="AI"><strong><em>AI</em></strong></label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Date"><strong><em>Date of Birth:</em></strong></label></td>
+          <td><input type="date" id="Date" name="Date" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Profile"><strong><em>Profile Picture:</em></strong></label></td>
+          <td><input type="file" id="Profile" name="Profile Picture" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" id="Submit" value="Submit Registration" />
+          </td>
+        </tr>
+      </table>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p align="center">© 2026 Student Registration Form. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
+<!-- 
+Exercise 1: Student Registration Form
+Create:
+
+Full Name
+Email
+Password
+Age
+Gender (radio)
+Skills (checkbox)
+Date of Birth
+Profile Picture
+Submit Button
+Exercise 2: Login Form
+Create:
+
+Username
+Password
+Remember Me checkbox
+Login button
+Reset button -->
